@@ -1,13 +1,13 @@
 {
     "username" : "동국죠스 이슈 분류 시스템",
-    "icon_url" : "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7ba4e01e-1fe2-4d2b-8bc8-26f988effedf%2FdonggukJaws.png?table=block&id=2c159138-d6a6-4963-b25f-a4c86b2ffdca&spaceId=29162adc-6a22-4ecb-b21a-37ce668b9f9d&width=2000&userId=5b8e03af-1eac-4795-b822-c0cc9105fde6&cache=v2",
+    "icon_url" : "https://github.com/hojunlee-hj/CapstoneDesignNLP/blob/main/Webhook/donggukJaws.png?raw=true",
     "text": "안녕",
     "blocks": [
     	{
     		"type": "section",
     		"text": {
     			"type": "mrkdwn",
-    			"text": "기술적 문제 : 앱 클라이언트 기능 문제"
+    			"text": "*기술적 문제* : 앱 클라이언트 기능 문제"
     		}
     	},
     	{
@@ -15,23 +15,47 @@
     		"block_id": "section567",
     		"text": {
     			"type": "mrkdwn",
-    			"text": "<https://example.com|Overlook Hotel> \n :star: \n Doors had too many axe holes, guest in room 237 was far too rowdy, whole place felt stuck in the 1920s."
-    		},
-    		"accessory": {
-    			"type": "image",
-    			"image_url": "https://is5-ssl.mzstatic.com/image/thumb/Purple3/v4/d3/72/5c/d3725c8f-c642-5d69-1904-aa36e4297885/source/256x256bb.jpg",
-    			"alt_text": "Haunted hotel image"
+    			"text": "*담당 부서* : 앱 개발팀"
     		}
     	},
-    	{
+        {
     		"type": "section",
-    		"block_id": "section789",
-    		"fields": [
-    			{
-    				"type": "mrkdwn",
-    				"text": "*Average Rating*\n1.0"
-    			}
-    		]
-    	}
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*기능 태그* : #업데이트 #재생"
+    		}
+    	},
+        {
+            "type": "section",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*주요 이슈*\n```진짜 어플이 너무 느립니다 다른 어플로 갈아타고 싶을 정도에요...```"
+    		}
+        }
+    ],
+    "attachments": [
+        {
+            "fallback": "Plain-text summary of the attachment.",
+            "color": "#2eb886",
+            "pretext": "*전체 리뷰 내용*",
+            "author_name": "김보요",
+            "author_link": "https://play.google.com/store/apps/details?id=com.ktmusic.geniemusic",
+            "author_icon": "https://play-lh.googleusercontent.com/a-/ACNPEu8IuL7KfkgzfluR2TTbroiL8vJK8y4J26KAkL_aFw=s64-rw",
+            "title": "원문 링크",
+            "title_link": "https://play.google.com/store/apps/details?id=com.ktmusic.geniemusic",
+            "text": "거의 10년째 지니쓰고 있어요... 진짜 어플이 너무 느립니다 다른 어플로 갈아타고 싶을 정도에요... 한두 기능만 느린 게 아니라 모든 기능이 느려요... 어플에 문제 있나요? 서버 강화를 하시든지요... 재생시에 자동으로 다음곡 넘어갈때도 엄청 느리고 재생목록에서 다른 노래를 틀 때도 너무 느립니다.. 분명 데이터 와이파이 제대로 되는데 연결 실패라는 안내 문구 뜨고 그대로 재생이 멈춰요 자동재생 진행안되고 계속 그대로 멈춰있어요 한곡 반복 재생할 때도 이런 경우가 많고요...; 그리고 제일 짜증나는 점 재생목록 눌렀을 때 재생중인 곡이 중앙에 떠야하는데 냅다 재생목록 제일 상단이 떠요 한두번 가끔이 아니라 진짜 매일 매번 이래요 다른 어플 쓰기 싫어서 지니 쓰고있는데 너무 불편합니다 매일 갈아탈까...생각해요ㅠ",
+            "fields": [
+                {
+                    "title": "리뷰 공감 수",
+                    "value": 38,
+                    "short": false
+                }
+            ],
+            "image_url": "http://my-website.com/path/to/image.jpg",
+            "thumb_url": "http://example.com/path/to/thumb.png",
+            "footer": "Google Playstore",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
+            "ts": 1666818722
+        }
     ]
 }
