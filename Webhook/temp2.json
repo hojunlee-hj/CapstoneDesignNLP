@@ -1,0 +1,61 @@
+{
+    "username" : "동국죠스 이슈 분류 시스템",
+    "icon_url" : "https://github.com/hojunlee-hj/CapstoneDesignNLP/blob/main/Webhook/donggukJaws.png?raw=true",
+    "text": "안녕",
+    "blocks": [
+    	{
+    		"type": "section",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*기술적 문제* : 앱 클라이언트 기능 문제"
+    		}
+    	},
+    	{
+    		"type": "section",
+    		"block_id": "section567",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*담당 부서* : 앱 개발팀"
+    		}
+    	},
+        {
+    		"type": "section",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*기능 태그* : #업데이트 #재생"
+    		}
+    	},
+    	{
+    		"type": "section",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*전체 리뷰 내용*"
+    		}
+    	}
+    ],
+    "attachments": [
+        {
+            "fallback": "Plain-text summary of the attachment.",
+            "color": "#2eb886",
+            "pretext": "Optional text that appears above the attachment block",
+            "author_name": "주노에이드",
+            "author_link": "http://flickr.com/bobby/",
+            "author_icon": "http://flickr.com/icons/bobby.jpg",
+            "title": "Slack API Documentation",
+            "title_link": "https://api.slack.com/",
+            "text": "",
+            "fields": [
+                {
+                    "title": "Priority",
+                    "value": "High",
+                    "short": false
+                }
+            ],
+            "image_url": "http://my-website.com/path/to/image.jpg",
+            "thumb_url": "http://example.com/path/to/thumb.png",
+            "footer": "Slack API",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
+            "ts": 123456789
+        }
+    ]
+}

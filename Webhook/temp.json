@@ -1,0 +1,39 @@
+{
+    "username" : "동국죠스 이슈 분류 시스템",
+    "icon_url" : "https://github.com/hojunlee-hj/CapstoneDesignNLP/blob/main/Webhook/donggukJaws.png?raw=true",
+    "text": "안녕",
+    "blocks": [
+    	{
+    		"type": "section",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*기술적 문제* : 앱 클라이언트 기능 문제"
+    		}
+    	},
+    	{
+    		"type": "section",
+    		"block_id": "section567",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*담당 부서* : 앱 개발팀"
+    		}
+    	},
+        {
+    		"type": "section",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "*기능 태그* : #업데이트 #재생"
+    		}
+    	},
+    	{
+    		"type": "section",
+    		"block_id": "section789",
+    		"fields": [
+    			{
+    				"type": "mrkdwn",
+    				"text": "*전체 리뷰 내용*\n>말만 업데이트지 달라지는 것도 없고 그냥 사람 인내심 테스트 하는 것 같네요" 
+    			}
+    		]
+    	}
+    ]
+}
