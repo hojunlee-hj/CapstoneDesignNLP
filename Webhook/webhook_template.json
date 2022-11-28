@@ -54,7 +54,7 @@
             "image_url": "http://my-website.com/path/to/image.jpg",
             "thumb_url": "http://example.com/path/to/thumb.png",
             "footer": "Google Playstore",
-            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png",
+            "footer_icon": "https://raw.githubusercontent.com/hojunlee-hj/CapstoneDesignNLP/936ce6964c307de42929c830777d80141a00b757/Webhook/google-playstore-icon.svg",
             "ts": 1666818722
         }
     ]
