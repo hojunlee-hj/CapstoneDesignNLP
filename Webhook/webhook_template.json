@@ -1,0 +1,37 @@
+{
+    "username" : "동국죠스 이슈 분류 시스템",
+    "icon_url" : "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7ba4e01e-1fe2-4d2b-8bc8-26f988effedf%2FdonggukJaws.png?table=block&id=2c159138-d6a6-4963-b25f-a4c86b2ffdca&spaceId=29162adc-6a22-4ecb-b21a-37ce668b9f9d&width=2000&userId=5b8e03af-1eac-4795-b822-c0cc9105fde6&cache=v2",
+    "text": "안녕",
+    "blocks": [
+    	{
+    		"type": "section",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "기술적 문제 : 앱 클라이언트 기능 문제"
+    		}
+    	},
+    	{
+    		"type": "section",
+    		"block_id": "section567",
+    		"text": {
+    			"type": "mrkdwn",
+    			"text": "<https://example.com|Overlook Hotel> \n :star: \n Doors had too many axe holes, guest in room 237 was far too rowdy, whole place felt stuck in the 1920s."
+    		},
+    		"accessory": {
+    			"type": "image",
+    			"image_url": "https://is5-ssl.mzstatic.com/image/thumb/Purple3/v4/d3/72/5c/d3725c8f-c642-5d69-1904-aa36e4297885/source/256x256bb.jpg",
+    			"alt_text": "Haunted hotel image"
+    		}
+    	},
+    	{
+    		"type": "section",
+    		"block_id": "section789",
+    		"fields": [
+    			{
+    				"type": "mrkdwn",
+    				"text": "*Average Rating*\n1.0"
+    			}
+    		]
+    	}
+    ]
+}
